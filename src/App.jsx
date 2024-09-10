@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Subheader from './components/Subheader';
+import UrgentCauses from './components/UrgentCauses';
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
       <Navbar/>
       <HeroSection/>
       <Subheader/>
+      <UrgentCauses/>
     </>
   )
 }

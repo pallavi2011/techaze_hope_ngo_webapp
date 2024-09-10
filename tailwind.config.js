@@ -28,7 +28,8 @@ export default {
           light: "#F8F6E4",
           white: "#FFFFFF",
           grey:"#5F5F5F",
-          black:"#141414"
+          black:"#141414",
+          lightgrey:"#E0E0E0"
         }
       }
     },
