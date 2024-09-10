@@ -3,6 +3,8 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import Subheader from './components/Subheader';
 import UrgentCauses from './components/UrgentCauses';
+import Donation from './components/Donation';
+import Footer from './components/Footer';
 
 function App() {
   
@@ -13,6 +15,8 @@ function App() {
       <HeroSection/>
       <Subheader/>
       <UrgentCauses/>
+      <Donation/>
+      <Footer/>
     </>
   )
 }

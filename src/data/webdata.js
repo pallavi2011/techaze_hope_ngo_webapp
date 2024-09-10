@@ -1,6 +1,10 @@
 import floods from '../assets/floods.png';
 import earthquake from '../assets/earthquake.png';
 import diseases from '../assets/diseases.png';
+import donate2 from '../assets/donate2.png';
+import Clothes from '../assets/Clothes.png';
+import food from '../assets/food.png';
+
 
 export const causesCard = [
     {
@@ -22,4 +26,25 @@ export const causesCard = [
         donation: 11000
     }
 
+]
+
+export const donationCard = [
+    {
+        img: donate2,
+        title:"Donate Money",
+        content:"Your small help can change someone else life and can make someone happy and u will have a good deed added in your cart",
+
+    },
+    {
+        img: Clothes,
+        title:"Donate Clothes",
+        content:"Your small help can change someone else life and can make someone happy and u will have a good deed added in your cart",
+
+    },
+    {
+        img: food,
+        title:"Donate Food",
+        content:"Your small help can change someone else life and can make someone happy and u will have a good deed added in your cart",
+
+    }
 ]
