@@ -8,18 +8,27 @@ export default {
       'mont':['Montserrat','sans-serif'],
       'manuale':['Manuale', 'sans-serif']
     },
+    fontSize: {
+      xs: ['14px', '40px'],
+      sm: ['15px', '21px'],
+      base: ['18px', '21.94px'],
+      md: ['20px', '28px'],
+      lg:['40px', '40px'],
+      xl: ['50px', '50px'],
+      xxl: ['70px', '81px']
+    },
 
     extend: {
       colors:{
         color:{
-          1: "#F8F6E4",
-          2: "#399866",
-          3: "#111111",
-          4: "#FDC137",
-          5: "#F8F6E4",
-          6: "#FFFFFF",
-          7:"#5F5F5F",
-          8:"#141414"
+          beige: "#F8F6E4",
+          green: "#399866",
+          dark: "#111111",
+          yellow: "#FDC137",
+          light: "#F8F6E4",
+          white: "#FFFFFF",
+          grey:"#5F5F5F",
+          black:"#141414"
         }
       }
     },

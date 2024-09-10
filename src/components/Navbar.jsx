@@ -18,22 +18,22 @@ const Navbar = () => {
                 {/* menu for large and medium devices */}
                 <ul className='hidden sm:flex'>
                 <a className='no-underline' href="#home">
-                    <li className='px-3 text-lg font-mont'>Home</li>
+                    <li className='px-3 text-base text-dark font-mont'>Home</li>
                 </a>
                 <a className='no-underline' href="#about-us">
-                <li className='px-3 text-lg font-mont'>About Us</li>
+                <li className='px-3 text-base text-dark font-mont'>About Us</li>
                 </a>
                 <a className='no-underline' href="#contact-us">
-                <li className='px-3 text-lg font-mont'>Contact Us</li>
+                <li className='px-3 text-base text-dark font-mont'>Contact Us</li>
                 </a>
                 <a className='no-underline' href="#blogs">
-                <li className='px-3 text-lg font-mont'>Blogs</li>
+                <li className='px-3 text-base text-dark font-mont'>Blogs</li>
                 </a>
                 
                 </ul>
                 {/* btn for large devices */}
                 <div className='hidden sm:flex items-center'>
-                        <button className='bg-color-2 text-color-6 text-base font-mont font-medium rounded-2xl py-2.5 px-5'>Donate</button>
+                        <button className='bg-color-green text-color-white text-sm font-mont font-medium rounded-2xl py-2.5 px-5'>Donate</button>
                 </div>
 
                 {/* {menu btn for only mobile devices} */}
@@ -45,7 +45,7 @@ const Navbar = () => {
             </div>
 
             {/* nav items for mobile devices */}
-            <div className={`space-y-4 px-4 mt-16 py-7 bg-color-2 ${nav ? "block fixed top-0 right-0 left-0 text-center": "hidden"}`}>
+            <div className={`space-y-4 px-4 mt-16 py-7 bg-color-green ${nav ? "block fixed top-0 right-0 left-0 text-center": "hidden"}`}>
                 <ul>
                 <a className='no-underline' href="#home">
                     <li className='px-3 text-lg font-mont'>Home</li>
