@@ -18,12 +18,14 @@ export const causesCard = [
         title:"Harmful Disease in Air",
         content:"World have been infected with deadly life taking virus ..... ",
         donation:7888
+        
     },
     {
         img: floods,
         title:"Patna suffer with heavy Flood",
         content:"People in patna have suffered a very heavy flood in past few days",
         donation: 11000
+        
     }
 
 ]

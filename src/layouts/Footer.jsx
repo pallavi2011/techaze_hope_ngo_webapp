@@ -40,15 +40,15 @@ const Footer = () => {
                         <div className='w-10 h-10 rounded-full bg-color-white m-0  cursor-pointer'>
                                 <FaFacebookF className='m-3 cursor-pointer'/>
                         </div>
-                        <div className='w-10 h-10 rounded-full bg-color-white'>
+                        <div className='w-10 h-10 rounded-full bg-color-white cursor-pointer'>
                                 <FaTwitter className='m-3'/>
                         </div>
                     </div>
                     <div className='flex gap-x-3'>
-                        <div className='w-10 h-10 rounded-full bg-color-white'>
+                        <div className='w-10 h-10 rounded-full bg-color-white cursor-pointer'>
                                 <AiFillInstagram className='m-3'/>
                         </div>
-                        <div className='w-10 h-10 rounded-full bg-color-white'>
+                        <div className='w-10 h-10 rounded-full bg-color-white cursor-pointer'>
                                 <FaYoutube className='m-3'/>
                         </div>
                     
