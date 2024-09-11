@@ -6,11 +6,13 @@ export default {
   theme: {
     fontFamily:{
       'mont':['Montserrat','sans-serif'],
-      'manuale':['Manuale', 'sans-serif']
+      'manuale':['Manuale', 'sans-serif'],
+      'poppins':['Poppins', 'sans-serif']
     },
     fontSize: {
       xs: ['14px', '40px'],
       sm: ['15px', '21px'],
+      smm:['16px', '24px'],
       base: ['18px', '21.94px'],
       md: ['20px', '28px'],
       lg:['40px', '40px'],

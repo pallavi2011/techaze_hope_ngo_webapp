@@ -48,3 +48,30 @@ export const donationCard = [
 
     }
 ]
+
+export const footer = [
+    {
+        title:"Company",
+        subtitles:["About", "Features", "Works", "Career"]
+
+        
+    },
+    {
+        title:"Help",
+        subtitles:["Customer Support",
+            "Delivery Details",
+            "Terms & Conditions",
+            "Privacy Policy"]
+
+        
+    },
+    {
+        title:"Resources",
+        subtitles:["Free eBooks",
+            "Development Tutorial",
+            "How to - Blog",
+            "Youtube Playlist"]
+
+        
+    }
+]

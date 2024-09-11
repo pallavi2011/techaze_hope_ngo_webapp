@@ -10,7 +10,7 @@ const Navbar = () => {
             setNav(!nav);
         };
   return (
-    <header className='w-full top-0 left-0 right-0'>
+    <header className='w-full top-0 left-0 right-0 relative z-[88]'>
         <nav className='py-4 lg:px-14 px-4 '>
             <div className='flex items-center justify-between gap-8'>
                 <img src={logo} className='w-10 h-10' alt="logo" />
@@ -45,19 +45,19 @@ const Navbar = () => {
             </div>
 
             {/* nav items for mobile devices */}
-            <div className={`space-y-4 px-4 mt-16 py-7 bg-color-green ${nav ? "block fixed top-0 right-0 left-0 text-center": "hidden"}`}>
+            <div className={`space-y-4 px-4 mt-16 py-7 bg-color-green ${nav ? "block fixed top-0 right-0 left-0 text-center": "hidden"} sm:hidden`}>
                 <ul>
                 <a className='no-underline' href="#home">
-                    <li className='px-3 text-lg font-mont'>Home</li>
+                    <li className='px-3 text-md font-mont md:text-lg'>Home</li>
                 </a>
                 <a className='no-underline' href="#about-us">
-                <li className='px-3 text-lg font-mont'>About Us</li>
+                <li className='px-3 text-md font-mont md:text-lg'>About Us</li>
                 </a>
                 <a className='no-underline' href="#contact-us">
-                <li className='px-3 text-lg font-mont'>Contact Us</li>
+                <li className='px-3 text-md font-mont md:text-lg'>Contact Us</li>
                 </a>
                 <a className='no-underline' href="#blogs">
-                <li className='px-3 text-lg font-mont'>Blogs</li>
+                <li className='px-3 text-md font-mont md:text-lg'>Blogs</li>
                 </a>
                 
                 </ul>
