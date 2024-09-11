@@ -13,7 +13,7 @@ const Navbar = () => {
     <header className='w-full top-0 left-0 right-0 relative z-[88]'>
         <nav className='py-4 lg:px-14 px-4 '>
             <div className='flex items-center justify-between gap-8'>
-                <img src={logo} className='w-10 h-10' alt="logo" />
+                <img src={logo} className='w-10 h-10 cursor-pointer' alt="logo" />
 
                 {/* menu for large and medium devices */}
                 <ul className='hidden sm:flex'>

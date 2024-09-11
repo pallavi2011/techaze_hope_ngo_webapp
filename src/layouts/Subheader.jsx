@@ -28,9 +28,10 @@ const Subheader = () => {
         }
     ]
   return (
-    <div className='bg-color-beige relative w-full pt-[26rem] sm:p-[0rem] lg:pt-[9rem] mb-[3rem]'>
+    <div className='bg-color-beige relative w-full pt-[12rem] sm:p-[0rem] lg:pt-[9rem] mb-[3rem]'>
          <div className=' bg-color-white w-full h-[14rem] sm:h-[8rem] z-[-1] shrink-0'/>
         <div className='bg-color-green rounded-3xl flex flex-col justify-center items-center sm:flex-row sm:justify-between sm:items-center p-10 sm:p-10 gap-y-5 absolute z-90 sm:left-[50px] sm:p-5 sm:right-[50px] sm:bottom-[20px] sm:shrink-0 bottom-[20px] left-[50px] right-[50px]'>
+            
             {data.map((dt, index)=>{
                 return(
                     <div key={index} className='flex flex-col gap-x-4 items-center sm:text-nowrap'>

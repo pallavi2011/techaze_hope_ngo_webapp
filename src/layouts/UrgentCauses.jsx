@@ -1,6 +1,6 @@
 import React from 'react'
 import { causesCard } from '../data/webdata'
-import CausesCard from './CausesCard'
+import CausesCard from '../components/CausesCard'
 
 const UrgentCauses = () => {
   return (

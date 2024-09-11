@@ -9,11 +9,11 @@ import { FaYoutube } from "react-icons/fa";
 const Footer = () => {
   return (
    
-        <div className='relative bg-color-beige'>
+        <footer className='relative bg-color-beige'>
             <div className='bg-color-green rounded-3xl flex-col py-10 px-10 md:flex md:flex-col md:gap-x-10 absolute top-[-80px] left-[50px] right-[50px] mb-40'>
                 <div className='w-full flex flex-wrap sm:flex-wrap  gap-x-20 gap-y-5 mb-6'>
                     <img src={logo} className='w-20 h-20' alt="logo" />
-
+                    {/* footer links */}
                     {footer.map((dt, index) => {
                         let {title, subtitles} = dt;
                         return (
@@ -33,7 +33,7 @@ const Footer = () => {
                             </div>
                         )
                     })}
-                    
+                    {/* social media icons */}
                     <div className='flex lg:flex-col lg:gap-y-3 flex-row mb-5 lg:grow  gap-x-5 px-10'>
                     <div className='flex gap-x-3'> 
                         
@@ -56,6 +56,7 @@ const Footer = () => {
                     
                     </div>
                 </div>
+                {/* copyright content */}
             <div className='text-center flex flex-col gap-y-4'>
                 <div className='border-2 bg-color-white '/>
                 <span className='font-poppins font-normal text-sm text-color-white'>© Copyright 2023-24, All Rights Reserved by Charity</span>
@@ -65,7 +66,7 @@ const Footer = () => {
         </div>
         
        
-        </div>
+        </footer>
   )
 }
 
